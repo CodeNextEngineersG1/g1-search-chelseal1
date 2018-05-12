@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  background-color: #faf3dd;
 }
 
 *, *:before, *:after {
@@ -8,6 +9,75 @@ html {
 
 body {
   text-align: center;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border: red;
 }
 
 /* place your styles below */
+
+#search-tools{
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+/*  font-size: 75%;*/
+
+
+}
+#search-button{
+  font-size: 100%;
+  color: pink;
+}
+/*#bar{
+
+
+}*/
+#search-bar{
+  font-size: 1000%;
+  color: pink;
+  box-sizing: 600%
+}
+#display{
+	margin: 0 auto;
+	max-width: 500px
+	text-align: left;
+
+}
+#display img{
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 300px;
+}
+
+#display h2{
+  text-align: center;
+ /* color: blue;*/
+}
+
+#auto-suggestions{
+  display: none;
+  border: 1px solid grey;
+  margin: 0 auto;
+  max-width: 25%;
+}
+.suggestion{
+  background-color: transparent;
+  border: none;
+}
+
+.suggestion:focus{ 
+  outline: none;
+}
+.suggestion:hover{
+  color: #ff0000;
+}
+
+h1{
+  color: pink;
+}
+#page-title{
+  font-size: 300%; 
+}
